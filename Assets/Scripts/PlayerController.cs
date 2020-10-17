@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 0;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
+    Renderer render;
 
     private Rigidbody rb;
     private int count;
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        render = GetComponent<Renderer>();
         rb = GetComponent<Rigidbody>();
         count = 0;
 
@@ -60,6 +62,28 @@ public class PlayerController : MonoBehaviour
             count = count + 1;
 
             SetCountText();
+            if(other.gameObject.GetComponent<Renderer>().material.GetColor("_BaseColor") == Color.red)
+            {
+                render.material.SetColor("_BaseColor", Color.red);
+            }
+
+            if (other.gameObject.GetComponent<Renderer>().material.GetColor("_BaseColor") == Color.cyan)
+            {
+                render.material.SetColor("_BaseColor", Color.cyan);
+            }
+        }
+
+        if (other.gameObject.CompareTag("PassThrough"))
+        {
+            if (other.gameObject.GetComponent<Renderer>().material.GetColor("_BaseColor") == Color.red && render.material.GetColor("_BaseColor") == Color.red)
+            {
+                other.gameObject.SetActive(false);
+            }
+
+            if(other.gameObject.GetComponent<Renderer>().material.GetColor("_BaseColor") == Color.cyan && render.material.GetColor("_BaseColor") == Color.cyan)
+            {
+                other.gameObject.SetActive(false);
+            }
         }
     }
 }
