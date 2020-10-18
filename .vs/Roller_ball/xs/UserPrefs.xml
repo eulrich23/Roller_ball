@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{6FEA2B4D-40B4-4ACE-504B-3A2CDB15A5DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/PathwayScript.cs" Line="7" Column="5" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="12" Column="32" />
-      <File FileName="Assets/Scripts/Rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="33" Column="24" />
+      <File FileName="Assets/Scripts/Rotator.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fa16d28d-a21f-499a-935b-fbf35f2e929a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="160f39ee-31ba-4ae2-a69c-6a1ce620b526" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
