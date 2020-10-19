@@ -105,6 +105,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -1289,4 +1293,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/Minigame.unity
-  playerPath: /Users/ericulrich/Documents/CS 4640/RollerballGame/RollerBallGame/Builds/Roller_build.app
+  playerPath: /Users/ericulrich/Documents/CS 4640/Roller_ball/Builds/Roller_build.app
