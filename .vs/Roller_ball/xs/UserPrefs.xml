@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{6FEA2B4D-40B4-4ACE-504B-3A2CDB15A5DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rotator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="62" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="108" Column="10" />
       <File FileName="Assets/Scripts/Rotator.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -10,7 +10,7 @@
           <Node name="Roller_ball" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Rotator.cs" selected="True" />
+                <Node name="PlayerController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="160f39ee-31ba-4ae2-a69c-6a1ce620b526" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e5cf3a67-3e98-46f0-aee4-149200011278" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
